@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 400vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background:rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    backdrop-filter: blur(1px)
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+}
+
+nav .menu {
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav .menu a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; */
+
+    /* background: red; */
+}
+
+section {
+    
+}
+
+section h3 {
+    font-size: 30px;
+    /* color: white; */
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+    text-shadow: 10px 5px 5px black;
+    text-transform: uppercase;
+}
+
+section h1 {
+    font-size: 50px;
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 5px black;
+    font-weight: 700 ;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    color: #eee;    
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+section a{
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 1px;
+    color: #eee;
+    /* background: rgb(183, 47, 47); */
+}
+
+section .btnone{
+    background-color: rgb(253, 109, 249);
+}
+
+section .btntwo{
+    background-color: rgb(125, 142, 249);
+}
+
+.btnone:hover{
+ 
+
+}
+
+
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 4;
+
+        
